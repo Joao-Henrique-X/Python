@@ -18,7 +18,7 @@ def encontrar(lista_analisada):
     numeros_passados = []
     primeiro_duplicado = 0
     for x in lista_analisada:
-            if x in list(numeros_passados):
+            if x in numeros_passados:
                 primeiro_duplicado = x
                 return primeiro_duplicado
             else:
