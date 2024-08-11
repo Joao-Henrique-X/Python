@@ -29,3 +29,4 @@ def encontrar(lista_analisada):
 for lista in lista_de_listas_de_inteiros:
     print(encontrar(lista))
 
+ 
